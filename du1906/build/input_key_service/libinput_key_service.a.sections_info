@@ -1,0 +1,72 @@
+In archive /home/mars/git/du1906_esp/du1906/build/input_key_service/libinput_key_service.a:
+
+input_key_service.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.input_key_service_task 00000050  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.input_key_service_destroy 00000038  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.get_input_key_service_state 00000020  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.input_key_service_add_key 00000038  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.input_key_service_create 00000060  00000000  00000000  00000114  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .text         00000000  00000000  00000000  00000174  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .data         00000000  00000000  00000000  00000174  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  7 .bss          00000000  00000000  00000000  00000174  2**0
+                  ALLOC
+  8 .text.input_key_service_stop 00000007  00000000  00000000  00000174  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .rodata.str1.1 00000175  00000000  00000000  0000017b  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .text.input_key_service_task 0000012b  00000000  00000000  000002f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.input_key_service_destroy 00000088  00000000  00000000  0000041c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.input_key_service_start 00000007  00000000  00000000  000004a4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 13 .text.get_input_key_service_state 0000003e  00000000  00000000  000004ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.input_key_service_add_key 000000e1  00000000  00000000  000004ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.input_key_service_create 00000120  00000000  00000000  000005d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .rodata.__FUNCTION__$8241 00000020  00000000  00000000  000006f0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 17 .rodata.__FUNCTION__$8282 0000001a  00000000  00000000  00000710  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .rodata.__FUNCTION__$8303 00000019  00000000  00000000  0000072a  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 19 .rodata.__FUNCTION__$8293 0000001a  00000000  00000000  00000743  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 20 .rodata.__FUNCTION__$8286 0000001c  00000000  00000000  0000075d  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 21 .debug_frame  000000b8  00000000  00000000  0000077c  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_info   0000105d  00000000  00000000  00000834  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_abbrev 000002e4  00000000  00000000  00001891  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 24 .debug_loc    0000046f  00000000  00000000  00001b75  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_aranges 00000048  00000000  00000000  00001fe4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_ranges 00000080  00000000  00000000  0000202c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_line   000008a3  00000000  00000000  000020ac  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_str    00000a47  00000000  00000000  0000294f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 29 .comment      0000003b  00000000  00000000  00003396  2**0
+                  CONTENTS, READONLY
+ 30 .xtensa.info  00000038  00000000  00000000  000033d1  2**0
+                  CONTENTS, READONLY
+ 31 .xt.lit       00000028  00000000  00000000  00003409  2**0
+                  CONTENTS, RELOC, READONLY
+ 32 .xt.prop      00000300  00000000  00000000  00003431  2**0
+                  CONTENTS, RELOC, READONLY

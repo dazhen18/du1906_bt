@@ -1,0 +1,388 @@
+In archive /home/mars/git/du1906_esp/du1906/build/bdsc_ota/libbdsc_ota.a:
+
+http_raw_stream.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal._http_destroy 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal._http_write 00000020  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal._http_close 0000002c  00000000  00000000  0000005c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal._http_open 00000100  00000000  00000000  00000088  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal._http_read 00000064  00000000  00000000  00000188  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal._http_process 00000020  00000000  00000000  000001ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal._http_event_handle 00000018  00000000  00000000  0000020c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.http_raw_stream_init 00000054  00000000  00000000  00000224  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text         00000000  00000000  00000000  00000278  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .data         00000000  00000000  00000000  00000278  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 10 .bss          00000000  00000000  00000000  00000278  2**0
+                  ALLOC
+ 11 .text._http_destroy 00000016  00000000  00000000  00000278  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .rodata.str1.1 00000492  00000000  00000000  0000028e  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .text._http_write 00000056  00000000  00000000  00000720  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text._http_close 00000086  00000000  00000000  00000778  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text._http_open 000002ca  00000000  00000000  00000800  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text._http_read 0000011e  00000000  00000000  00000acc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text._http_process 00000066  00000000  00000000  00000bec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text._http_event_handle 00000038  00000000  00000000  00000c54  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.http_raw_stream_init 000000ec  00000000  00000000  00000c8c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .rodata.__FUNCTION__$9836 0000000b  00000000  00000000  00000d78  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 21 .rodata.__FUNCTION__$9892 00000015  00000000  00000000  00000d83  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 22 .debug_frame  000000d0  00000000  00000000  00000d98  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_info   0000180f  00000000  00000000  00000e68  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_abbrev 000002fa  00000000  00000000  00002677  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 25 .debug_loc    00000459  00000000  00000000  00002971  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_aranges 00000058  00000000  00000000  00002dca  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_ranges 00000060  00000000  00000000  00002e22  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_line   00000974  00000000  00000000  00002e82  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_str    00000f7a  00000000  00000000  000037f6  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 30 .comment      0000003b  00000000  00000000  00004770  2**0
+                  CONTENTS, READONLY
+ 31 .xtensa.info  00000038  00000000  00000000  000047ab  2**0
+                  CONTENTS, READONLY
+ 32 .xt.lit       00000040  00000000  00000000  000047e3  2**0
+                  CONTENTS, RELOC, READONLY
+ 33 .xt.prop      00000378  00000000  00000000  00004823  2**0
+                  CONTENTS, RELOC, READONLY
+
+app_ota_upgrade.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.custom_ota_bin_desc_cleanup 00000010  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal._need_upgrade 0000004c  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal._ota_st_reset 00000008  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal._return_ota_error 00000058  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.create_ota_download_status_string 00000038  00000000  00000000  000000f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.ota_service_cb 000000bc  00000000  00000000  00000128  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.get_last_ota_url 00000004  00000000  00000000  000001e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.generate_custom_upgrade_list 0000004c  00000000  00000000  000001e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal._ota_task 000002c4  00000000  00000000  00000234  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.bdsc_start_ota_thread 00000040  00000000  00000000  000004f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text         00000000  00000000  00000000  00000538  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .data         00000000  00000000  00000000  00000538  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 12 .bss          00000000  00000000  00000000  00000538  2**0
+                  ALLOC
+ 13 .text.custom_ota_bin_desc_cleanup 00000040  00000000  00000000  00000538  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .rodata.str1.1 00000972  00000000  00000000  00000578  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 15 .text._need_upgrade 0000012c  00000000  00000000  00000eec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text._ota_st_reset 00000017  00000000  00000000  00001018  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text._return_ota_error 000000ba  00000000  00000000  00001030  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.create_ota_download_status_string 00000074  00000000  00000000  000010ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.ota_service_cb 0000021c  00000000  00000000  00001160  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.get_last_ota_url 00000016  00000000  00000000  0000137c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.generate_custom_upgrade_list 0000010e  00000000  00000000  00001394  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .rodata       00000014  00000000  00000000  000014a4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 23 .text._ota_task 000007f6  00000000  00000000  000014b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.bdsc_start_ota_thread 000000a0  00000000  00000000  00001cb0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .bss.g_custom_ota_bin_desc 00000004  00000000  00000000  00001d50  2**2
+                  ALLOC
+ 26 .bss.OTA_FLAG 00000004  00000000  00000000  00001d50  2**2
+                  ALLOC
+ 27 .debug_frame  00000100  00000000  00000000  00001d50  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_info   00002f3c  00000000  00000000  00001e50  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_abbrev 0000043e  00000000  00000000  00004d8c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 30 .debug_loc    00000902  00000000  00000000  000051ca  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 31 .debug_aranges 00000068  00000000  00000000  00005acc  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_ranges 00000100  00000000  00000000  00005b34  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 33 .debug_line   00001467  00000000  00000000  00005c34  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 34 .debug_str    00002164  00000000  00000000  0000709b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 35 .comment      0000003b  00000000  00000000  000091ff  2**0
+                  CONTENTS, READONLY
+ 36 .xtensa.info  00000038  00000000  00000000  0000923a  2**0
+                  CONTENTS, READONLY
+ 37 .xt.lit       00000050  00000000  00000000  00009272  2**0
+                  CONTENTS, RELOC, READONLY
+ 38 .xt.prop      00000630  00000000  00000000  000092c2  2**0
+                  CONTENTS, RELOC, READONLY
+
+ota_proc_iot.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.ota_app_partition_finish 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.ota_data_partition_finish 00000004  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.ota_app_partition_exec_upgrade 000000c4  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.ota_data_partition_exec_upgrade 00000130  00000000  00000000  00000100  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.ota_data_partition_prepare 00000040  00000000  00000000  00000230  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.ota_app_partition_prepare 00000040  00000000  00000000  00000270  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.ota_app_get_custom_proc 0000000c  00000000  00000000  000002b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.ota_data_get_custom_proc 0000000c  00000000  00000000  000002bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.ota_data_image_stream_read 0000002c  00000000  00000000  000002c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.ota_data_partition_write 00000020  00000000  00000000  000002f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text         00000000  00000000  00000000  00000314  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .data         00000000  00000000  00000000  00000314  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 12 .bss          00000000  00000000  00000000  00000314  2**0
+                  ALLOC
+ 13 .text.ota_app_partition_finish 00000010  00000000  00000000  00000314  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.ota_data_partition_finish 00000010  00000000  00000000  00000324  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .rodata.str1.1 00000616  00000000  00000000  00000334  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 16 .text.ota_app_partition_exec_upgrade 0000023e  00000000  00000000  0000094c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .rodata       0000001c  00000000  00000000  00000b8c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .text.ota_data_partition_exec_upgrade 00000353  00000000  00000000  00000ba8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.ota_data_partition_prepare 00000092  00000000  00000000  00000efc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.ota_app_partition_prepare 0000007a  00000000  00000000  00000f90  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.ota_app_get_custom_proc 00000018  00000000  00000000  0000100c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.ota_data_get_custom_proc 00000018  00000000  00000000  00001024  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.ota_data_image_stream_read 0000007f  00000000  00000000  0000103c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.ota_data_partition_write 00000063  00000000  00000000  000010bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .rodata.__FUNCTION__$10272 0000001b  00000000  00000000  0000111f  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 26 .rodata.__FUNCTION__$10236 0000001b  00000000  00000000  0000113a  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 27 .rodata.__FUNCTION__$10247 00000020  00000000  00000000  00001155  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 28 .rodata.__FUNCTION__$10205 0000001a  00000000  00000000  00001175  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .rodata.__FUNCTION__$10211 0000001f  00000000  00000000  0000118f  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 30 .debug_frame  00000100  00000000  00000000  000011b0  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 31 .debug_info   000021b6  00000000  00000000  000012b0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_abbrev 00000399  00000000  00000000  00003466  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 33 .debug_loc    0000053a  00000000  00000000  000037ff  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 34 .debug_aranges 00000068  00000000  00000000  00003d39  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_ranges 00000070  00000000  00000000  00003da1  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 36 .debug_line   00000f9c  00000000  00000000  00003e11  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 37 .debug_str    00001a1a  00000000  00000000  00004dad  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 38 .comment      0000003b  00000000  00000000  000067c7  2**0
+                  CONTENTS, READONLY
+ 39 .xtensa.info  00000038  00000000  00000000  00006802  2**0
+                  CONTENTS, READONLY
+ 40 .xt.lit       00000050  00000000  00000000  0000683a  2**0
+                  CONTENTS, RELOC, READONLY
+ 41 .xt.prop      000004e0  00000000  00000000  0000688a  2**0
+                  CONTENTS, RELOC, READONLY
+
+app_ota_policy.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.ota_monitor_task 00000020  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.ota_timeout_checkpoint 00000060  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.ota_exponent_backoff_init 00000008  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.ota_exponent_backoff_get_next_delay 00000008  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.start_ota_monitor 00000018  00000000  00000000  000000c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .text         00000000  00000000  00000000  000000dc  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .data         00000000  00000000  00000000  000000dc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  7 .bss          00000000  00000000  00000000  000000dc  2**0
+                  ALLOC
+  8 .text.ota_monitor_task 0000008b  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .rodata.str1.1 000000f4  00000000  00000000  00000167  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .text.ota_timeout_checkpoint 00000112  00000000  00000000  0000025c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.ota_exponent_backoff_init 00000011  00000000  00000000  00000370  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.ota_exponent_backoff_get_next_delay 00000017  00000000  00000000  00000384  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.start_ota_monitor 00000032  00000000  00000000  0000039c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .bss.g_exponent_backoff_limit 00000004  00000000  00000000  000003d0  2**2
+                  ALLOC
+ 15 .bss.g_exponent_backoff_delay 00000004  00000000  00000000  000003d0  2**2
+                  ALLOC
+ 16 .debug_frame  00000088  00000000  00000000  000003d0  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_info   00000ae0  00000000  00000000  00000458  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_abbrev 0000020d  00000000  00000000  00000f38  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 19 .debug_loc    000000d9  00000000  00000000  00001145  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_aranges 00000040  00000000  00000000  0000121e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_ranges 00000030  00000000  00000000  0000125e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_line   000006e3  00000000  00000000  0000128e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_str    00000d53  00000000  00000000  00001971  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 24 .comment      0000003b  00000000  00000000  000026c4  2**0
+                  CONTENTS, READONLY
+ 25 .xtensa.info  00000038  00000000  00000000  000026ff  2**0
+                  CONTENTS, READONLY
+ 26 .xt.lit       00000028  00000000  00000000  00002737  2**0
+                  CONTENTS, RELOC, READONLY
+ 27 .xt.prop      000001a4  00000000  00000000  0000275f  2**0
+                  CONTENTS, RELOC, READONLY
+
+bdsc_ota_partitions.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.ota_partitions_label_update 00000038  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.update_ota_parts_to_nvs 0000004c  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.bdsc_partitions_init 0000008c  00000000  00000000  000000b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.bdsc_partitions_get_partition_info 0000000c  00000000  00000000  00000144  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.bdsc_partitions_clean_partition_info 00000014  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.bdsc_partitions_update_partition_info 0000001c  00000000  00000000  00000164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.bdsc_partitions_bootable_chain_update 00000038  00000000  00000000  00000180  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.bdsc_partitions_get_bootable_flash_tone_label 0000000c  00000000  00000000  000001b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.bdsc_partitions_get_bootable_dsp_label 0000000c  00000000  00000000  000001c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.bdsc_partitions_get_bootable_app_label 0000000c  00000000  00000000  000001d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.bdsc_partitions_get_next_ota_part_info 00000004  00000000  00000000  000001dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text         00000000  00000000  00000000  000001e0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 12 .data         00000000  00000000  00000000  000001e0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 13 .bss          00000000  00000000  00000000  000001e0  2**0
+                  ALLOC
+ 14 .rodata.str1.1 00000329  00000000  00000000  000001e0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 15 .text.ota_partitions_label_update 00000079  00000000  00000000  0000050c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.update_ota_parts_to_nvs 000000a2  00000000  00000000  00000588  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.bdsc_partitions_init 00000157  00000000  00000000  0000062c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.bdsc_partitions_get_partition_info 00000037  00000000  00000000  00000784  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.bdsc_partitions_clean_partition_info 0000004b  00000000  00000000  000007bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.bdsc_partitions_update_partition_info 00000042  00000000  00000000  00000808  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.bdsc_partitions_bootable_chain_update 0000009c  00000000  00000000  0000084c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.bdsc_partitions_get_bootable_flash_tone_label 00000017  00000000  00000000  000008e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.bdsc_partitions_get_bootable_dsp_label 00000017  00000000  00000000  00000900  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.bdsc_partitions_get_bootable_app_label 00000017  00000000  00000000  00000918  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.bdsc_partitions_get_next_ota_part_info 00000012  00000000  00000000  00000930  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .debug_frame  00000118  00000000  00000000  00000944  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_info   00000abf  00000000  00000000  00000a5c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_abbrev 0000026c  00000000  00000000  0000151b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 29 .debug_loc    000001d9  00000000  00000000  00001787  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_aranges 00000070  00000000  00000000  00001960  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 31 .debug_ranges 00000090  00000000  00000000  000019d0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_line   00000701  00000000  00000000  00001a60  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 33 .debug_str    0000063e  00000000  00000000  00002161  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 34 .comment      0000003b  00000000  00000000  0000279f  2**0
+                  CONTENTS, READONLY
+ 35 .xtensa.info  00000038  00000000  00000000  000027da  2**0
+                  CONTENTS, READONLY
+ 36 .xt.lit       00000058  00000000  00000000  00002812  2**0
+                  CONTENTS, RELOC, READONLY
+ 37 .xt.prop      00000318  00000000  00000000  0000286a  2**0
+                  CONTENTS, RELOC, READONLY

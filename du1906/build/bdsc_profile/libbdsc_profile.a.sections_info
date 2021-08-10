@@ -1,0 +1,66 @@
+In archive /home/mars/git/du1906_esp/du1906/build/bdsc_profile/libbdsc_profile.a:
+
+bdsc_profile.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.bdsc_nvs_get_str 0000001c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.custom_key_op_invoker 0000006c  00000000  00000000  00000050  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.profile_init 00000268  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.profile_key_set 0000015c  00000000  00000000  00000324  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.profile_key_get 00000078  00000000  00000000  00000480  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.custom_key_op_safe 0000001c  00000000  00000000  000004f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .text         00000000  00000000  00000000  00000514  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .data         00000000  00000000  00000000  00000514  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  8 .bss          00000000  00000000  00000000  00000514  2**0
+                  ALLOC
+  9 .rodata.str1.1 00000b1d  00000000  00000000  00000514  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .text.bdsc_nvs_get_str 00000062  00000000  00000000  00001034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.custom_key_op_invoker 00000164  00000000  00000000  00001098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.profile_init 00000609  00000000  00000000  000011fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.profile_key_set 00000350  00000000  00000000  00001808  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .rodata.profile_key_set 0000003c  00000000  00000000  00001b58  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 15 .text.profile_key_get 0000016e  00000000  00000000  00001b94  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .rodata.profile_key_get 00000038  00000000  00000000  00001d04  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 17 .text.custom_key_op_safe 0000004a  00000000  00000000  00001d3c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .debug_frame  000000a0  00000000  00000000  00001d88  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_info   0000219f  00000000  00000000  00001e28  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_abbrev 0000031f  00000000  00000000  00003fc7  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 21 .debug_loc    000006d6  00000000  00000000  000042e6  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_aranges 00000048  00000000  00000000  000049bc  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_ranges 00000038  00000000  00000000  00004a04  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_line   00000f39  00000000  00000000  00004a3c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_str    0000131b  00000000  00000000  00005975  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 26 .comment      0000003b  00000000  00000000  00006c90  2**0
+                  CONTENTS, READONLY
+ 27 .xtensa.info  00000038  00000000  00000000  00006ccb  2**0
+                  CONTENTS, READONLY
+ 28 .xt.lit       00000030  00000000  00000000  00006d03  2**0
+                  CONTENTS, RELOC, READONLY
+ 29 .xt.prop      0000078c  00000000  00000000  00006d33  2**0
+                  CONTENTS, RELOC, READONLY

@@ -1,0 +1,110 @@
+In archive /home/mars/git/du1906_esp/du1906/build/esp_websocket_client/libesp_websocket_client.a:
+
+esp_websocket_client.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal._tick_get_ms 00000010  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.set_websocket_transport_optional_settings$isra$1 00000010  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.esp_websocket_client_dispatch_event 0000000c  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.esp_websocket_client_abort_connection 00000038  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.esp_websocket_client_task 000000f8  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.esp_websocket_client_set_uri 0000008c  00000000  00000000  00000190  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.esp_websocket_client_start 0000002c  00000000  00000000  0000021c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.esp_websocket_client_stop 00000014  00000000  00000000  00000248  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.esp_websocket_client_destroy 0000004c  00000000  00000000  0000025c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.esp_websocket_client_init 00000180  00000000  00000000  000002a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.esp_websocket_client_send_with_opcode 00000058  00000000  00000000  00000428  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.esp_websocket_client_send_text 00000004  00000000  00000000  00000480  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.esp_websocket_client_send_bin 00000004  00000000  00000000  00000484  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.esp_websocket_client_send 00000004  00000000  00000000  00000488  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.esp_websocket_register_events 00000008  00000000  00000000  0000048c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text         00000000  00000000  00000000  00000494  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 16 .data         00000000  00000000  00000000  00000494  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 17 .bss          00000000  00000000  00000000  00000494  2**0
+                  ALLOC
+ 18 .text._tick_get_ms 0000001b  00000000  00000000  00000494  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.set_websocket_transport_optional_settings$isra$1 00000052  00000000  00000000  000004b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.esp_websocket_client_dispatch_event 00000044  00000000  00000000  00000504  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .rodata.str1.1 00000627  00000000  00000000  00000548  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 22 .text.esp_websocket_client_abort_connection 00000086  00000000  00000000  00000b70  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.esp_websocket_client_task 000003b6  00000000  00000000  00000bf8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.esp_websocket_client_set_uri 00000250  00000000  00000000  00000fb0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.esp_websocket_client_start 0000006e  00000000  00000000  00001200  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.esp_websocket_client_stop 0000004a  00000000  00000000  00001270  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.esp_websocket_client_destroy 000000c2  00000000  00000000  000012bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.esp_websocket_client_init 000005cb  00000000  00000000  00001380  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.esp_websocket_client_is_connected 0000001a  00000000  00000000  0000194c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.esp_websocket_client_send_with_opcode 0000013c  00000000  00000000  00001968  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.esp_websocket_client_send_text 00000018  00000000  00000000  00001aa4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.esp_websocket_client_send_bin 00000018  00000000  00000000  00001abc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.esp_websocket_client_send 00000015  00000000  00000000  00001ad4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.esp_websocket_register_events 00000020  00000000  00000000  00001aec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .rodata.__FUNCTION__$7338 00000026  00000000  00000000  00001b0c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 36 .rodata.__FUNCTION__$7374 0000001d  00000000  00000000  00001b32  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 37 .rodata.__FUNCTION__$7344 00000020  00000000  00000000  00001b4f  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 38 .rodata.__FUNCTION__$7357 0000001a  00000000  00000000  00001b6f  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 39 .data.WEBSOCKET_EVENTS 00000004  00000000  00000000  00001b8c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 40 .debug_frame  00000190  00000000  00000000  00001b90  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 41 .debug_info   000021ba  00000000  00000000  00001d20  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 42 .debug_abbrev 000003e9  00000000  00000000  00003eda  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 43 .debug_loc    00000aca  00000000  00000000  000042c3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 44 .debug_aranges 00000090  00000000  00000000  00004d8d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 45 .debug_ranges 000000d0  00000000  00000000  00004e1d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 46 .debug_line   0000113f  00000000  00000000  00004eed  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 47 .debug_str    000010f9  00000000  00000000  0000602c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 48 .comment      0000003b  00000000  00000000  00007125  2**0
+                  CONTENTS, READONLY
+ 49 .xtensa.info  00000038  00000000  00000000  00007160  2**0
+                  CONTENTS, READONLY
+ 50 .xt.lit       00000078  00000000  00000000  00007198  2**0
+                  CONTENTS, RELOC, READONLY
+ 51 .xt.prop      00000a20  00000000  00000000  00007210  2**0
+                  CONTENTS, RELOC, READONLY

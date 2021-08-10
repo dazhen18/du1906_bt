@@ -1,0 +1,56 @@
+In archive /home/mars/git/du1906_esp/du1906/build/main/libmain.a:
+
+main.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.need_skip_current_playing 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.my_bdsc_engine_event_handler 00000094  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.app_main 00000050  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  0000011c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  0000011c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  0000011c  2**0
+                  ALLOC
+  6 .text.need_skip_current_playing 00000010  00000000  00000000  0000011c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text.process_mqtt_control_data 00000007  00000000  00000000  0000012c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .rodata.str1.1 00000204  00000000  00000000  00000133  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 .text.my_bdsc_engine_event_handler 00000196  00000000  00000000  00000338  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .rodata       00000020  00000000  00000000  000004d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 11 .text.app_main 00000084  00000000  00000000  000004f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .rodata.__func__$10951 00000009  00000000  00000000  00000574  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .debug_frame  00000070  00000000  00000000  00000580  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_info   00000dc2  00000000  00000000  000005f0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_abbrev 00000235  00000000  00000000  000013b2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .debug_loc    000001a8  00000000  00000000  000015e7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_aranges 00000038  00000000  00000000  0000178f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_ranges 00000028  00000000  00000000  000017c7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_line   00000990  00000000  00000000  000017ef  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_str    00000d07  00000000  00000000  0000217f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 21 .comment      0000003b  00000000  00000000  00002e86  2**0
+                  CONTENTS, READONLY
+ 22 .xtensa.info  00000038  00000000  00000000  00002ec1  2**0
+                  CONTENTS, READONLY
+ 23 .xt.lit       00000018  00000000  00000000  00002ef9  2**0
+                  CONTENTS, RELOC, READONLY
+ 24 .xt.prop      000001c8  00000000  00000000  00002f11  2**0
+                  CONTENTS, RELOC, READONLY

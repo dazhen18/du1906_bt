@@ -1,0 +1,52 @@
+In archive /home/mars/git/du1906_esp/du1906/build/esp_debug/libesp_debug.a:
+
+esp_debug.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.esp_debug_poll 00000010  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.esp_debug_init 00000008  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.esp_debug_deinit 00000008  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  00000054  2**0
+                  ALLOC
+  6 .rodata.str1.1 0000002a  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .text.esp_debug_poll 00000020  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text.esp_debug_init 00000022  00000000  00000000  000000a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.esp_debug_deinit 0000001a  00000000  00000000  000000c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .bss.s_debug_init 00000001  00000000  00000000  000000de  2**0
+                  ALLOC
+ 11 .debug_frame  00000058  00000000  00000000  000000e0  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 12 .debug_info   000001e9  00000000  00000000  00000138  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 13 .debug_abbrev 000000dc  00000000  00000000  00000321  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 14 .debug_loc    00000047  00000000  00000000  000003fd  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_aranges 00000030  00000000  00000000  00000444  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_ranges 00000020  00000000  00000000  00000474  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_line   0000033a  00000000  00000000  00000494  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_str    000002c6  00000000  00000000  000007ce  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 19 .comment      0000003b  00000000  00000000  00000a94  2**0
+                  CONTENTS, READONLY
+ 20 .xtensa.info  00000038  00000000  00000000  00000acf  2**0
+                  CONTENTS, READONLY
+ 21 .xt.lit       00000018  00000000  00000000  00000b07  2**0
+                  CONTENTS, RELOC, READONLY
+ 22 .xt.prop      000000c0  00000000  00000000  00000b1f  2**0
+                  CONTENTS, RELOC, READONLY

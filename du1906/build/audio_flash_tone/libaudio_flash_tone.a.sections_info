@@ -1,0 +1,38 @@
+In archive /home/mars/git/du1906_esp/du1906/build/audio_flash_tone/libaudio_flash_tone.a:
+
+audio_tone_uri.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .text.get_tone_uri_num 00000007  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .rodata.str1.1 000002f2  00000000  00000000  0000003b  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 .data.tone_uri 00000064  00000000  00000000  00000330  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+  6 .debug_frame  00000028  00000000  00000000  00000394  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  7 .debug_info   00000078  00000000  00000000  000003bc  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  8 .debug_abbrev 00000073  00000000  00000000  00000434  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_aranges 00000020  00000000  00000000  000004a7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 10 .debug_ranges 00000010  00000000  00000000  000004c7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 11 .debug_line   00000084  00000000  00000000  000004d7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 12 .debug_str    000000e5  00000000  00000000  0000055b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .comment      0000003b  00000000  00000000  00000640  2**0
+                  CONTENTS, READONLY
+ 14 .xtensa.info  00000038  00000000  00000000  0000067b  2**0
+                  CONTENTS, READONLY
+ 15 .xt.prop      00000030  00000000  00000000  000006b3  2**0
+                  CONTENTS, RELOC, READONLY

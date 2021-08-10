@@ -1,0 +1,63 @@
+In archive /home/mars/git/du1906_esp/du1906/build/bdsc_mqtt/libbdsc_mqtt.a:
+
+mqtt_task.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.mqtt_event_handler 000000a8  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.mqtt_task 0000006c  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.bdsc_engine_channel_data_upload 00000018  00000000  00000000  00000148  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.mqtt_task_init 00000018  00000000  00000000  00000160  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  00000178  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  00000178  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  00000178  2**0
+                  ALLOC
+  7 .rodata.str1.1 0000035b  00000000  00000000  00000178  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .text.mqtt_event_handler 000001b1  00000000  00000000  000004d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .rodata.mqtt_event_handler 0000001c  00000000  00000000  00000688  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 10 .text.mqtt_task 0000014f  00000000  00000000  000006a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.bdsc_engine_channel_data_upload 00000046  00000000  00000000  000007f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.mqtt_task_init 00000034  00000000  00000000  0000083c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .debug_frame  00000070  00000000  00000000  00000870  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_info   00001119  00000000  00000000  000008e0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_abbrev 00000269  00000000  00000000  000019f9  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .debug_loc    00000167  00000000  00000000  00001c62  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_aranges 00000038  00000000  00000000  00001dc9  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_ranges 00000028  00000000  00000000  00001e01  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_line   000007e3  00000000  00000000  00001e29  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_str    00001125  00000000  00000000  0000260c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 21 .comment      0000003b  00000000  00000000  00003731  2**0
+                  CONTENTS, READONLY
+ 22 .xtensa.info  00000038  00000000  00000000  0000376c  2**0
+                  CONTENTS, READONLY
+ 23 .xt.lit       00000020  00000000  00000000  000037a4  2**0
+                  CONTENTS, RELOC, READONLY
+ 24 .xt.prop      000001bc  00000000  00000000  000037c4  2**0
+                  CONTENTS, RELOC, READONLY
+
+mqtt_server_root_cert.pem.txt.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .rodata.embedded 000004cd  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA

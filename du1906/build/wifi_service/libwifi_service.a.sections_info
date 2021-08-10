@@ -1,0 +1,702 @@
+In archive /home/mars/git/du1906_esp/du1906/build/wifi_service/libwifi_service.a:
+
+wifi_ssid_manager.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.nvs_ssid_list_conf_save 0000003c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.wifi_ssid_manager_init_nvs 00000034  00000000  00000000  00000070  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.nvs_ssid_list_conf_get 00000024  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.get_key_by_id 0000002c  00000000  00000000  000000c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.nvs_wifi_info_get 0000002c  00000000  00000000  000000f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.get_stored_id_by_ssid 00000028  00000000  00000000  00000120  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.nvs_wifi_info_save 00000040  00000000  00000000  00000148  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.nvs_reset_choosen_flag 0000001c  00000000  00000000  00000188  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.wifi_ssid_manager_create 00000048  00000000  00000000  000001a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.wifi_ssid_manager_save 0000008c  00000000  00000000  000001ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.wifi_ssid_manager_get_latest_config 00000054  00000000  00000000  00000278  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.wifi_ssid_manager_get_best_config 00000094  00000000  00000000  000002cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.wifi_ssid_manager_get_ssid_num 00000020  00000000  00000000  00000360  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.wifi_ssid_manager_list_show 00000034  00000000  00000000  00000380  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.wifi_ssid_manager_erase_all 00000040  00000000  00000000  000003b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.wifi_ssid_manager_destroy 00000040  00000000  00000000  000003f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text         00000000  00000000  00000000  00000434  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 17 .data         00000000  00000000  00000000  00000434  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 18 .bss          00000000  00000000  00000000  00000434  2**0
+                  ALLOC
+ 19 .rodata.str1.1 00000515  00000000  00000000  00000434  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 20 .text.nvs_ssid_list_conf_save 000000a2  00000000  00000000  0000094c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.wifi_ssid_manager_init_nvs 00000068  00000000  00000000  000009f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .rodata       0000000c  00000000  00000000  00000a58  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 23 .text.nvs_ssid_list_conf_get 00000072  00000000  00000000  00000a64  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.get_key_by_id 00000050  00000000  00000000  00000ad8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.nvs_wifi_info_get 0000007f  00000000  00000000  00000b28  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.get_stored_id_by_ssid 00000077  00000000  00000000  00000ba8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.nvs_wifi_info_save 000000b2  00000000  00000000  00000c20  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.nvs_reset_choosen_flag 00000064  00000000  00000000  00000cd4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.wifi_ssid_manager_create 000000b6  00000000  00000000  00000d38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.wifi_ssid_manager_save 00000212  00000000  00000000  00000df0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.wifi_ssid_manager_get_latest_config 00000116  00000000  00000000  00001004  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.wifi_ssid_manager_get_best_config 00000258  00000000  00000000  0000111c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.wifi_ssid_manager_get_ssid_num 00000052  00000000  00000000  00001374  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.wifi_ssid_manager_list_show 000000a0  00000000  00000000  000013c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.wifi_ssid_manager_erase_all 000000be  00000000  00000000  00001468  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.wifi_ssid_manager_destroy 000000a5  00000000  00000000  00001528  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .rodata.__FUNCTION__$8227 0000001a  00000000  00000000  000015cd  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 38 .rodata.__FUNCTION__$8218 0000001c  00000000  00000000  000015e7  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 39 .rodata.__FUNCTION__$8207 0000001c  00000000  00000000  00001603  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 40 .rodata.__FUNCTION__$8202 0000001f  00000000  00000000  0000161f  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 41 .rodata.__FUNCTION__$8184 00000022  00000000  00000000  0000163e  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 42 .rodata.__FUNCTION__$8176 00000024  00000000  00000000  00001660  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 43 .rodata.__FUNCTION__$8166 00000017  00000000  00000000  00001684  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 44 .rodata.__FUNCTION__$8064 0000000e  00000000  00000000  0000169b  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 45 .rodata.__func__$8151 0000001b  00000000  00000000  000016a9  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 46 .rodata.__FUNCTION__$8156 00000019  00000000  00000000  000016c4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 47 .debug_frame  00000190  00000000  00000000  000016e0  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 48 .debug_info   0000281d  00000000  00000000  00001870  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 49 .debug_abbrev 00000366  00000000  00000000  0000408d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 50 .debug_loc    00000a80  00000000  00000000  000043f3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 51 .debug_aranges 00000098  00000000  00000000  00004e73  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 52 .debug_ranges 00000100  00000000  00000000  00004f0b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 53 .debug_line   00000ee5  00000000  00000000  0000500b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 54 .debug_str    00000d5c  00000000  00000000  00005ef0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 55 .comment      0000003b  00000000  00000000  00006c4c  2**0
+                  CONTENTS, READONLY
+ 56 .xtensa.info  00000038  00000000  00000000  00006c87  2**0
+                  CONTENTS, READONLY
+ 57 .xt.lit       00000080  00000000  00000000  00006cbf  2**0
+                  CONTENTS, RELOC, READONLY
+ 58 .xt.prop      00000654  00000000  00000000  00006d3f  2**0
+                  CONTENTS, RELOC, READONLY
+
+wifi_service.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.wifi_serv_state_send$constprop$4 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.wifi_event_cb 00000090  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.setting_timeout_callback 00000008  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.wifi_serv_cmd_send$constprop$5 00000008  00000000  00000000  000000d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.wifi_service_destroy 0000003c  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.get_last_wifi_disconnect_real_reason 0000002c  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.configure_wifi_sta_mode 0000001c  00000000  00000000  00000144  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.wifi_init 0000005c  00000000  00000000  00000160  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.wifi_service_register_setting_handle 00000030  00000000  00000000  000001bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.wifi_service_setting_start 00000024  00000000  00000000  000001ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.wifi_service_update_sta_info 00000034  00000000  00000000  00000210  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.wifi_service_setting_stop 00000024  00000000  00000000  00000244  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.wifi_service_connect 00000024  00000000  00000000  00000268  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal._wifi_start 00000020  00000000  00000000  0000028c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.wifi_task 000001c8  00000000  00000000  000002ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.retry_timer_callback 00000008  00000000  00000000  00000474  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.wifi_service_disconnect 00000024  00000000  00000000  0000047c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal._wifi_stop 00000020  00000000  00000000  000004a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.wifi_service_set_sta_info 00000024  00000000  00000000  000004c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.wifi_service_state_get 00000020  00000000  00000000  000004e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.wifi_service_disconnect_reason_get 00000020  00000000  00000000  00000504  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.wifi_service_erase_ssid_manager_info 00000030  00000000  00000000  00000524  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.wifi_service_get_ssid_num 00000030  00000000  00000000  00000554  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.wifi_service_create 00000084  00000000  00000000  00000584  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text         00000000  00000000  00000000  00000608  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 25 .data         00000000  00000000  00000000  00000608  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 26 .bss          00000000  00000000  00000000  00000608  2**0
+                  ALLOC
+ 27 .text.wifi_serv_state_send$constprop$4 00000026  00000000  00000000  00000608  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .rodata.str1.1 0000094f  00000000  00000000  0000062e  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .text.wifi_event_cb 000001e4  00000000  00000000  00000f80  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .rodata.wifi_event_cb 00000040  00000000  00000000  00001164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 31 .text.setting_timeout_callback 00000018  00000000  00000000  000011a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.wifi_serv_cmd_send$constprop$5 00000024  00000000  00000000  000011bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.wifi_service_destroy 00000097  00000000  00000000  000011e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.get_last_wifi_disconnect_real_reason 0000008d  00000000  00000000  00001278  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.configure_wifi_sta_mode 0000003a  00000000  00000000  00001308  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.wifi_init 000000fc  00000000  00000000  00001344  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.wifi_service_register_setting_handle 00000099  00000000  00000000  00001440  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.wifi_service_setting_start 0000004d  00000000  00000000  000014dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text.wifi_service_update_sta_info 00000098  00000000  00000000  0000152c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .text.wifi_service_setting_stop 0000004d  00000000  00000000  000015c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.wifi_service_connect 0000004d  00000000  00000000  00001614  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .text._wifi_start 00000042  00000000  00000000  00001664  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .text.wifi_task 0000062b  00000000  00000000  000016a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text.retry_timer_callback 00000016  00000000  00000000  00001cd4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text.wifi_service_disconnect 0000004d  00000000  00000000  00001cec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text._wifi_stop 00000042  00000000  00000000  00001d3c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text.wifi_service_set_sta_info 0000004e  00000000  00000000  00001d80  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text.wifi_service_state_get 00000041  00000000  00000000  00001dd0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.wifi_service_disconnect_reason_get 00000042  00000000  00000000  00001e14  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text.wifi_service_erase_ssid_manager_info 0000006c  00000000  00000000  00001e58  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .text.wifi_service_get_ssid_num 0000006a  00000000  00000000  00001ec4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 52 .text.wifi_service_create 000001d6  00000000  00000000  00001f30  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .rodata.__func__$8378 0000000f  00000000  00000000  00002106  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 54 .rodata.__func__$8392 0000000a  00000000  00000000  00002115  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 55 .rodata.__FUNCTION__$8440 0000000c  00000000  00000000  0000211f  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 56 .rodata.__FUNCTION__$8444 0000000b  00000000  00000000  0000212b  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 57 .rodata.__FUNCTION__$8521 00000014  00000000  00000000  00002136  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 58 .rodata.__FUNCTION__$8514 0000001a  00000000  00000000  0000214a  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 59 .rodata.__FUNCTION__$8508 00000025  00000000  00000000  00002164  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 60 .rodata.__FUNCTION__$8501 00000015  00000000  00000000  00002189  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 61 .rodata.__FUNCTION__$8496 00000023  00000000  00000000  0000219e  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 62 .rodata.__FUNCTION__$8491 00000017  00000000  00000000  000021c1  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 63 .rodata.__FUNCTION__$8486 0000001a  00000000  00000000  000021d8  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 64 .rodata.__FUNCTION__$8480 00000018  00000000  00000000  000021f2  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 65 .rodata.__FUNCTION__$8475 00000015  00000000  00000000  0000220a  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 66 .rodata.__FUNCTION__$8470 0000001a  00000000  00000000  0000221f  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 67 .rodata.__FUNCTION__$8463 0000001d  00000000  00000000  00002239  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 68 .rodata.__FUNCTION__$8457 0000001b  00000000  00000000  00002256  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 69 .rodata.__FUNCTION__$8450 00000025  00000000  00000000  00002271  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 70 .rodata.__func__$8361 00000018  00000000  00000000  00002296  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 71 .data.g_last_wifi_disconnect_real_reason 00000004  00000000  00000000  000022b0  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 72 .debug_frame  00000250  00000000  00000000  000022b4  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 73 .debug_info   0000439d  00000000  00000000  00002504  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 74 .debug_abbrev 00000497  00000000  00000000  000068a1  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 75 .debug_loc    000007e7  00000000  00000000  00006d38  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 76 .debug_aranges 000000d8  00000000  00000000  0000751f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 77 .debug_ranges 000000f8  00000000  00000000  000075f7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 78 .debug_line   0000127d  00000000  00000000  000076ef  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 79 .debug_str    00002872  00000000  00000000  0000896c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 80 .comment      0000003b  00000000  00000000  0000b1de  2**0
+                  CONTENTS, READONLY
+ 81 .xtensa.info  00000038  00000000  00000000  0000b219  2**0
+                  CONTENTS, READONLY
+ 82 .xt.lit       000000c0  00000000  00000000  0000b251  2**0
+                  CONTENTS, RELOC, READONLY
+ 83 .xt.prop      00000b10  00000000  00000000  0000b311  2**0
+                  CONTENTS, RELOC, READONLY
+
+esp_wifi_setting.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.esp_wifi_setting_create 00000034  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.esp_wifi_setting_destroy 00000020  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.esp_wifi_setting_regitster_notify_handle 0000001c  00000000  00000000  00000088  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.esp_wifi_setting_info_notify 00000020  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.esp_wifi_setting_set_data 0000001c  00000000  00000000  000000c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.esp_wifi_setting_get_data 0000001c  00000000  00000000  000000e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.esp_wifi_setting_start 0000001c  00000000  00000000  000000fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.esp_wifi_setting_stop 0000001c  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.esp_wifi_setting_teardown 0000001c  00000000  00000000  00000134  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text         00000000  00000000  00000000  00000150  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .data         00000000  00000000  00000000  00000150  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 11 .bss          00000000  00000000  00000000  00000150  2**0
+                  ALLOC
+ 12 .rodata.str1.1 000000ce  00000000  00000000  00000150  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .text.esp_wifi_setting_create 0000008c  00000000  00000000  00000220  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.esp_wifi_setting_destroy 00000041  00000000  00000000  000002ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.esp_wifi_setting_register_function 0000000d  00000000  00000000  000002f0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 16 .text.esp_wifi_setting_regitster_notify_handle 0000003b  00000000  00000000  00000300  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.esp_wifi_setting_info_notify 00000042  00000000  00000000  0000033c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.esp_wifi_setting_set_data 0000003b  00000000  00000000  00000380  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.esp_wifi_setting_get_data 00000036  00000000  00000000  000003bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.esp_wifi_setting_start 00000044  00000000  00000000  000003f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.esp_wifi_setting_stop 00000044  00000000  00000000  00000438  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.esp_wifi_setting_teardown 00000048  00000000  00000000  0000047c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .rodata.__FUNCTION__$5908 0000001a  00000000  00000000  000004c4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 24 .rodata.__FUNCTION__$5903 00000016  00000000  00000000  000004de  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 25 .rodata.__FUNCTION__$5899 00000017  00000000  00000000  000004f4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 26 .rodata.__FUNCTION__$5895 0000001a  00000000  00000000  0000050b  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 27 .rodata.__FUNCTION__$5891 0000001a  00000000  00000000  00000525  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 28 .rodata.__FUNCTION__$5886 0000001d  00000000  00000000  0000053f  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .rodata.__FUNCTION__$5881 00000029  00000000  00000000  0000055c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 30 .rodata.__FUNCTION__$5870 00000019  00000000  00000000  00000585  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 31 .rodata.__FUNCTION__$5866 00000018  00000000  00000000  0000059e  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 32 .debug_frame  00000100  00000000  00000000  000005b8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 33 .debug_info   00000b4a  00000000  00000000  000006b8  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 34 .debug_abbrev 000001b7  00000000  00000000  00001202  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 35 .debug_loc    00000251  00000000  00000000  000013b9  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 36 .debug_aranges 00000068  00000000  00000000  0000160a  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 37 .debug_ranges 00000058  00000000  00000000  00001672  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_line   000005f9  00000000  00000000  000016ca  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 39 .debug_str    000006b8  00000000  00000000  00001cc3  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 40 .comment      0000003b  00000000  00000000  0000237b  2**0
+                  CONTENTS, READONLY
+ 41 .xtensa.info  00000038  00000000  00000000  000023b6  2**0
+                  CONTENTS, READONLY
+ 42 .xt.lit       00000048  00000000  00000000  000023ee  2**0
+                  CONTENTS, RELOC, READONLY
+ 43 .xt.prop      000002e8  00000000  00000000  00002436  2**0
+                  CONTENTS, RELOC, READONLY
+
+smart_config.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal._smart_config_stop 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal._smart_config_start 00000034  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.smartconfg_cb 00000088  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.smart_config_create 00000048  00000000  00000000  000000f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  0000013c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  0000013c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  0000013c  2**0
+                  ALLOC
+  7 .text._smart_config_stop 0000000d  00000000  00000000  0000013c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .rodata.str1.1 00000300  00000000  00000000  00000149  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 .text._smart_config_start 00000072  00000000  00000000  0000044c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text.smartconfg_cb 00000144  00000000  00000000  000004c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .rodata.smartconfg_cb 00000014  00000000  00000000  00000604  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 12 .text.smart_config_create 000000ac  00000000  00000000  00000618  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .rodata.__FUNCTION__$7665 00000014  00000000  00000000  000006c4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 14 .bss.sm_setting_handle 00000004  00000000  00000000  000006d8  2**2
+                  ALLOC
+ 15 .debug_frame  00000070  00000000  00000000  000006d8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_info   00000974  00000000  00000000  00000748  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_abbrev 000001cf  00000000  00000000  000010bc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 18 .debug_loc    000001b5  00000000  00000000  0000128b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_aranges 00000038  00000000  00000000  00001440  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_ranges 00000028  00000000  00000000  00001478  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_line   0000050c  00000000  00000000  000014a0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_str    00000747  00000000  00000000  000019ac  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 23 .comment      0000003b  00000000  00000000  000020f3  2**0
+                  CONTENTS, READONLY
+ 24 .xtensa.info  00000038  00000000  00000000  0000212e  2**0
+                  CONTENTS, READONLY
+ 25 .xt.lit       00000020  00000000  00000000  00002166  2**0
+                  CONTENTS, RELOC, READONLY
+ 26 .xt.prop      000001e0  00000000  00000000  00002186  2**0
+                  CONTENTS, RELOC, READONLY
+
+airkiss_config.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.airkiss_get_next_channel_idx 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.airkiss_stop 0000001c  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.airkiss_start 000000c4  00000000  00000000  00000058  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.wifi_promiscuous_rx 0000006c  00000000  00000000  0000011c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.channel_change_callback 00000028  00000000  00000000  00000188  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.airkiss_get_errno 0000000c  00000000  00000000  000001b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.airkiss_notify_task 00000118  00000000  00000000  000001bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.airkiss_send_ack_task 0000006c  00000000  00000000  000002d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.airkiss_ssdp_notify 00000030  00000000  00000000  00000340  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.airkiss_answer 00000018  00000000  00000000  00000370  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.airkiss_teardown 0000000c  00000000  00000000  00000388  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.airkiss_config_create 00000050  00000000  00000000  00000394  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text         00000000  00000000  00000000  000003e4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 13 .data         00000000  00000000  00000000  000003e4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 14 .bss          00000000  00000000  00000000  000003e4  2**0
+                  ALLOC
+ 15 .text.airkiss_get_next_channel_idx 00000024  00000000  00000000  000003e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.airkiss_stop 0000003d  00000000  00000000  00000408  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .rodata.str1.1 000005f1  00000000  00000000  00000445  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .text.airkiss_start 00000206  00000000  00000000  00000a38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.wifi_promiscuous_rx 0000013e  00000000  00000000  00000c40  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.channel_change_callback 00000052  00000000  00000000  00000d80  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.airkiss_get_errno 00000021  00000000  00000000  00000dd4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.airkiss_notify_task 00000425  00000000  00000000  00000df8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.airkiss_send_ack_task 0000013f  00000000  00000000  00001220  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.airkiss_ssdp_notify 0000005a  00000000  00000000  00001360  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.airkiss_answer 00000022  00000000  00000000  000013bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.airkiss_teardown 00000025  00000000  00000000  000013e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.airkiss_config_create 000000c3  00000000  00000000  00001408  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .rodata.__FUNCTION__$8378 00000016  00000000  00000000  000014cb  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .rodata.ak_conf 00000010  00000000  00000000  000014e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 30 .data.s_airkiss_chan_tab 00000088  00000000  00000000  000014f4  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 31 .bss.air_answer_task_handle 00000004  00000000  00000000  0000157c  2**2
+                  ALLOC
+ 32 .bss.channel_change_timer 00000004  00000000  00000000  0000157c  2**2
+                  ALLOC
+ 33 .bss.ak_random_num 00000001  00000000  00000000  0000157c  2**0
+                  ALLOC
+ 34 .bss.ak_ctx   00000004  00000000  00000000  0000157c  2**2
+                  ALLOC
+ 35 .data.s_cur_chan_idx 00000004  00000000  00000000  0000157c  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 36 .data.s_sniffer_stop_flag 00000001  00000000  00000000  00001580  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 37 .bss.air_setting_handle 00000004  00000000  00000000  00001584  2**2
+                  ALLOC
+ 38 .debug_frame  00000130  00000000  00000000  00001584  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 39 .debug_info   00002a1e  00000000  00000000  000016b4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 40 .debug_abbrev 00000516  00000000  00000000  000040d2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 41 .debug_loc    00000e17  00000000  00000000  000045e8  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 42 .debug_aranges 00000078  00000000  00000000  000053ff  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 43 .debug_ranges 00000130  00000000  00000000  00005477  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 44 .debug_line   00000f60  00000000  00000000  000055a7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 45 .debug_str    00001492  00000000  00000000  00006507  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 46 .comment      0000003b  00000000  00000000  00007999  2**0
+                  CONTENTS, READONLY
+ 47 .xtensa.info  00000038  00000000  00000000  000079d4  2**0
+                  CONTENTS, READONLY
+ 48 .xt.lit       00000060  00000000  00000000  00007a0c  2**0
+                  CONTENTS, RELOC, READONLY
+ 49 .xt.prop      00000684  00000000  00000000  00007a6c  2**0
+                  CONTENTS, RELOC, READONLY
+
+blufi_security.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.myrand 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.blufi_dh_negotiate_data_handler 0000006c  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.blufi_aes_encrypt 0000000c  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.blufi_aes_decrypt 0000000c  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.blufi_crc_checksum 00000004  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.blufi_security_init 00000014  00000000  00000000  000000c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.blufi_security_deinit 00000018  00000000  00000000  000000d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text         00000000  00000000  00000000  000000ec  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .data         00000000  00000000  00000000  000000ec  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .bss          00000000  00000000  00000000  000000ec  2**0
+                  ALLOC
+ 10 .text.myrand  0000001a  00000000  00000000  000000ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .rodata.str1.1 00000107  00000000  00000000  00000106  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .text.blufi_dh_negotiate_data_handler 0000018e  00000000  00000000  00000210  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.blufi_aes_encrypt 00000043  00000000  00000000  000003a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.blufi_aes_decrypt 00000043  00000000  00000000  000003e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.blufi_crc_checksum 00000014  00000000  00000000  00000428  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.blufi_security_init 00000046  00000000  00000000  0000043c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.blufi_security_deinit 00000058  00000000  00000000  00000484  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .rodata.__func__$5155 00000020  00000000  00000000  000004dc  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 19 .bss.blufi_sec 00000004  00000000  00000000  000004fc  2**2
+                  ALLOC
+ 20 .debug_frame  000000b8  00000000  00000000  000004fc  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_info   000008fc  00000000  00000000  000005b4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_abbrev 00000224  00000000  00000000  00000eb0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 23 .debug_loc    0000025b  00000000  00000000  000010d4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_aranges 00000050  00000000  00000000  0000132f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_ranges 00000040  00000000  00000000  0000137f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_line   00000796  00000000  00000000  000013bf  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_str    0000052d  00000000  00000000  00001b55  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 28 .comment      0000003b  00000000  00000000  00002082  2**0
+                  CONTENTS, READONLY
+ 29 .xtensa.info  00000038  00000000  00000000  000020bd  2**0
+                  CONTENTS, READONLY
+ 30 .xt.lit       00000038  00000000  00000000  000020f5  2**0
+                  CONTENTS, RELOC, READONLY
+ 31 .xt.prop      00000240  00000000  00000000  0000212d  2**0
+                  CONTENTS, RELOC, READONLY
+
+blufi_config.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal._ble_config_start 00000054  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.wifi_ble_event_callback 000000d8  00000000  00000000  00000088  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.blufi_config_create 00000048  00000000  00000000  00000160  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.blufi_set_sta_connected_flag 00000020  00000000  00000000  000001a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.blufi_set_customized_data 00000040  00000000  00000000  000001c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.blufi_send_customized_data 00000044  00000000  00000000  00000208  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .text         00000000  00000000  00000000  0000024c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .data         00000000  00000000  00000000  0000024c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  8 .bss          00000000  00000000  00000000  0000024c  2**0
+                  ALLOC
+  9 .text._ble_config_stop 00000007  00000000  00000000  0000024c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .rodata.str1.1 00000512  00000000  00000000  00000253  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 11 .text._ble_config_start 000000ba  00000000  00000000  00000768  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.wifi_ble_event_callback 00000246  00000000  00000000  00000824  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .rodata.wifi_ble_event_callback 00000060  00000000  00000000  00000a6c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 14 .text.blufi_config_create 000000a8  00000000  00000000  00000acc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.blufi_set_sta_connected_flag 00000045  00000000  00000000  00000b74  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.blufi_set_customized_data 000000ac  00000000  00000000  00000bbc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.blufi_send_customized_data 000000ac  00000000  00000000  00000c68  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .rodata.__FUNCTION__$8955 0000001b  00000000  00000000  00000d14  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 19 .rodata.__FUNCTION__$8950 0000001a  00000000  00000000  00000d2f  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 20 .rodata.__FUNCTION__$8943 0000001d  00000000  00000000  00000d49  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 21 .rodata.__FUNCTION__$8937 00000014  00000000  00000000  00000d66  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 22 .rodata.__func__$8916 00000018  00000000  00000000  00000d7a  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 23 .data.wifi_ble_callbacks 00000014  00000000  00000000  00000d94  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 24 .bss.bc_setting_handle 00000004  00000000  00000000  00000da8  2**2
+                  ALLOC
+ 25 .debug_frame  000000b8  00000000  00000000  00000da8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_info   00001637  00000000  00000000  00000e60  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_abbrev 00000281  00000000  00000000  00002497  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 28 .debug_loc    000002fd  00000000  00000000  00002718  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_aranges 00000050  00000000  00000000  00002a15  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_ranges 00000040  00000000  00000000  00002a65  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 31 .debug_line   000007dd  00000000  00000000  00002aa5  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_str    00001396  00000000  00000000  00003282  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 33 .comment      0000003b  00000000  00000000  00004618  2**0
+                  CONTENTS, READONLY
+ 34 .xtensa.info  00000038  00000000  00000000  00004653  2**0
+                  CONTENTS, READONLY
+ 35 .xt.lit       00000030  00000000  00000000  0000468b  2**0
+                  CONTENTS, RELOC, READONLY
+ 36 .xt.prop      00000384  00000000  00000000  000046bb  2**0
+                  CONTENTS, RELOC, READONLY

@@ -1,0 +1,20 @@
+In archive /home/mars/git/du1906_esp/du1906/build/bdsc_peripheral_buttons/libbdsc_peripheral_buttons.a:
+
+bdsc_buttons.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .debug_line   00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_str    000000c2  00000000  00000000  00000034  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .comment      0000003b  00000000  00000000  000000f6  2**0
+                  CONTENTS, READONLY
+  6 .xtensa.info  00000038  00000000  00000000  00000131  2**0
+                  CONTENTS, READONLY
